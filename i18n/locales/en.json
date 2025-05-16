@@ -1,0 +1,190 @@
+{
+  "preceptor": "The Preceptor",
+  "logo_preceptor": "The Preceptor logo",
+  "seo": {
+    "home": {
+      "title": "Home",
+      "description": "The Preceptor is a philosophy podcast"
+    },
+    "about": {
+      "title": "Charles Robin - Philosophy Professor",
+      "description": "Discover Charles Robin, philosophy professor and creator of the YouTube and podcast The Preceptor"
+    },
+    "videos": {
+      "title": "Online Philosophy Videos",
+      "description": "Browse all my philosophy videos. Explore key concepts, authors, and schools of thought through online replays."
+    },
+    "courses": {
+      "title": "Online philosophy courses",
+      "description": "Enhance your philosophy knowledge with online courses from The Preceptor for all levels. Explore key concepts, authors and schools of thought on replay online."
+    },
+    "books": {
+      "title": "Philosophy books and comics",
+      "description": "Order the Preceptor's books and comics online. These works make discovering philosophy fun and accessible to all levels."
+    },
+    "news": {
+      "title": "Philosophy news",
+      "description": "Check out the latest news from Charles Robin, philosophy vulgarisator and creator of the Youtube and podcast The Preceptor, followed by more than a million subscribers."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Check out the latest news from Charles Robin, philosophy vulgarisator and creator of the Youtube and podcast The Preceptor, followed by more than a million subscribers."
+    }
+  },
+  "link": {
+    "home": "Home",
+    "about": "About me",
+    "resources": "Resources",
+    "videos": "Videos",
+    "courses": "Courses",
+    "books": "Books",
+    "news": "News",
+    "support": "Support Me"
+  },
+  "courses": {
+    "description": "Discover my courses"
+  },
+  "books": {
+    "description": "Order my books"
+  },
+  "videos": {
+    "description": "Explore all my videos"
+  },
+  "button": {
+    "changeLanguage": "Change language to {langName}",
+    "changeLanguage2": "Change language",
+    "changeMode": "Change mode"
+  },
+  "language": {
+    "fr": "French",
+    "en": "English"
+  },
+  "hero": {
+    "title": "Food For Thought",
+    "description": "France's #1 Philosophy Channel",
+    "cta_spotify": "Listen Now",
+    "cta_youtube": "Last Video"
+  },
+  "quotes": {
+  "1": "I think, therefore I am",
+  "2": "Know thyself",
+  "3": "I know that I know nothing",
+  "4": "Death is nothing to us"
+  },
+  "user_testimonials": {
+    "quote": {
+      "1": "Each episode makes me think differently — it’s captivating.",
+      "2": "An enlightening, accessible, and always stimulating podcast.",
+      "3": "I listen during my commute. It feeds my curiosity every day.",
+      "4": "Finally, a podcast that doesn’t treat listeners like fools.",
+      "5": "A great way to approach philosophy without jargon or pretension.",
+      "6": "I love how clearly complex ideas are explained.",
+      "7": "It’s a weekly appointment I never miss.",
+      "8": "A true breath of fresh air for the mind — simple yet deep."
+    },
+    "headline": "Testimonials",
+    "title": "A podcast that resonates",
+    "description": "Listeners share how the podcast has had an impact on their daily lives."
+  },
+  "brand_testimonials": {
+    "headline": "Media",
+    "title": "In the media",
+    "description": "Featured in media outlets such as Le Monde, Huffington Post, France Info, and more."
+  },
+  "podcasts": {
+    "title": "Listen wherever you like",
+    "description": "Find all episodes on your favorite platform: YouTube, Spotify, Apple Podcasts, and more.",
+    "headline": "Podcasts"
+  },
+  "banner": {
+    "title": "New book available soon!", 
+    "cta": "Kepp me posted"
+  },
+  "videosIntro": {
+    "title": "Freud, Netflix, and More",
+    "description": "From pop culture to ancient thinkers, I introduce you to a philosopher's thought or invite you to reflect on a philosophical subject.",
+    "cta": "Explore"
+  },
+  "bookIntro": {
+    "title": "Tous philosophes ?",
+    "description": "Download my book for free.",
+    "cta": "Download",
+    "features": {
+      "1": {
+        "title": "Kant",
+        "description": "Did you know that when a child says, “I didn’t mean to,” they're echoing Kant’s deontological ethics."
+      },
+      "2": {
+        "title": "Sartre",
+        "description": "Ever said, “I do what I want”? That’s a glimpse into Sartre’s existentialism — a bold stance against determinism."
+      },
+      "3": {
+        "title": "Schopenhauer",
+        "description": "And when someone says “I love you,” could it be nature’s trick? For Schopenhauer, love is merely the will to… reproduce the species."
+      }
+    }
+  },
+  "podcasts_stats": {
+    "section": {
+      "title": "The podcast in numbers",
+      "description": "Little by little, the project has grown with you. Here are a few highlights."
+    },
+    "features": {
+      "youtube": {
+        "title": "1 million subscribers on YouTube",
+        "description": "A loyal and engaged YouTube community over the years."
+      },
+      "podcast": {
+        "title": "150+ podcast episodes",
+        "description": "Hours of reflections on philosophy and life."
+      },
+      "courses": {
+        "title": "10+ online courses",
+        "description": "Accessible training to share knowledge, available on Patreon."
+      }
+    }
+  },
+  "about_me": {
+    "title": "Who am I?",
+    "paragraphs": {
+      "paragraph1": "My name is Charles Robin. I worked as a private philosophy teacher for ten years. I created the YouTube channel Le Précepteur in 2018 to share my passion for philosophy.",
+      "paragraph2": "When I started on YouTube, I never imagined that philosophy could generate so much public interest. YouTube is mainly a platform for entertainment, and if someone had told me one day that my videos on Plato, Spinoza, or Stoicism would be watched by millions of people, I wouldn’t have believed it.",
+      "paragraph3": "It's quite paradoxical because, deep down, I’ve always believed that philosophy is a discipline open to everyone and meant for the greatest number. Very often, when people turn their backs on philosophy, it's mostly because of the way it is presented to them. Many associate it with pompous and useless rambling, without realizing that the questions philosophy raises are questions that concern them directly and that they ask themselves throughout their lives. And for that, it’s mainly the philosophers themselves who are to blame."
+    }
+  },
+  "about_philosophy": {
+    "title": "My Philosophy",
+    "paragraphs": {
+      "paragraph1": "My way of talking about philosophy goes against this conception. I believe that if what we say is not understood by the audience or does not spark their interest, the problem doesn't come from the audience, but from us.",
+      "paragraph2": "I have always felt it necessary to put myself in the shoes of the person I am addressing, and to find the words that will make my message understandable. It’s this commitment to clarity and simplicity that I believe is at the root of my channel’s success.",
+      "paragraph3": "When I see a comment from someone saying that I’ve helped them reconnect with philosophy, that’s the greatest reward for me. Because then, my work truly makes sense — that of being a mediator between great thinkers and the public, and of providing material for thought."
+    }
+  },
+  "newsletter": {
+    "success": {
+      "title": "You're subscribed to my newsletter!",
+      "description": "Thank you for your trust. You'll soon receive my content before everyone else."
+    },
+    "error": {
+      "title": "An error occurred",
+      "description": "Unable to add email to newsletter."
+    },
+    "already_subscribed": {
+      "title": "You're already subscribed!",
+      "description": "Your email is already registered for the newsletter."
+    },
+    "required_email": "Email is required.",
+    "invalid_email": "Invalid email address",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "paragraphs": {
+      "paragraph1": "Subscribe to my newsletter to stay up to date with the latest news from the Preceptor podcast.",
+      "paragraph2": "You’ll receive exclusive episode summaries, inspiring quotes, book recommendations, and early invitations to upcoming events.",
+      "paragraph3": "Get my ideas, reflections, and more — delivered straight to your inbox, before anyone else."
+    },
+    "modal": {
+      "desc": "Subscribe to my newsletter and receive your free copy of the book “Tous Philosophes” as well as all the latest news from the Preceptor podcast.",
+      "cancel": "Cancel"
+    }
+  }
+}

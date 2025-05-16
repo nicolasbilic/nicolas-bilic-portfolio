@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@nuxt/ui-pro";
+@import "./keyframes.css";
+@import "./animations.css";
+
+/* https://uicolors.app/generate/ffffff */
+
+/* @theme static {
+  
+} */
+
+/* use nuxt ui dynamic color based on light/dark mode */
+.nuxt-ui-neutral-400 {
+  color: var(--ui-color-neutral-400);
+}

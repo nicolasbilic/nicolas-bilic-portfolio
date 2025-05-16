@@ -1,0 +1,59 @@
+<!-- Terms of use page, detailing the site's usage rules for users. -->
+<script setup lang="ts"></script>
+<template></template>
+
+<!-- <template>
+  <div>
+    <div class="relative w-full h-full flex items-center justify-center py-12 md:py-12 pb-6">
+      <div class="p-5 text-center">
+        <div class="p-5 text-center">
+          <h1 class="text-[1.625rem] md:text-2xl font-bold uppercase text-[#202020]">
+            {{ t("cu_title") }}
+          </h1>
+          <p class="text-sm opacity-75">{{ t("legal_date") }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative px-6">
+      <div class="mx-auto max-w-xl">
+        <section>
+          <article class="pb-20">
+            <p class="pb-2">{{ t("cu_paragraph_1") }}</p>
+            <p class="pb-2">{{ t("cu_paragraph_2") }}</p>
+
+            <h2 class="text-[20px] md:text-[1.5rem] mt-[30px] md:mt-[40px] mb-[15px] md:mb-[20px] text-[#202020]">
+              {{ t("cu_h2") }}
+            </h2>
+            <p class="pb-2">{{ t("cu_paragraph_3") }}</p>
+            <p class="pb-2">{{ t("cu_paragraph_4") }}</p>
+            <p class="pb-2">
+              {{ t("cu_paragraph_5") }}
+              (<a href="mailto:agbilic@gmail.com">agbilic@gmail.com</a>).
+              {{ t("cu_paragraph_6") }}
+            </p>
+
+            <h2 class="text-[20px] md:text-[1.5rem] mt-[30px] md:mt-[40px] mb-[15px] md:mb-[20px] text-[#202020]">
+              {{ t("cu_h2_1") }}
+            </h2>
+            <ul class="pl-10 list-disc">
+              <li>{{ t("cu_paragraph_7") }}</li>
+              <li>{{ t("cu_paragraph_8") }}</li>
+              <li>{{ t("cu_paragraph_9") }}</li>
+            </ul>
+
+            <h2 class="text-[20px] md:text-[1.5rem] mt-[30px] md:mt-[40px] mb-[15px] md:mb-[20px] text-[#202020]">
+              {{ t("cu_h2_2") }}
+            </h2>
+            <p class="pb-2">
+              {{ t("cu_paragraph_10") }}
+              (<a href="mailto:agbilic@gmail.com">agbilic@gmail.com</a>).
+            </p>
+            <br />
+            <p class="pb-2">{{ t("cu_paragraph_11") }}</p>
+          </article>
+        </section>
+      </div>
+    </div>
+  </div>
+</template> -->
