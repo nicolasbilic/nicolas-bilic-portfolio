@@ -12,10 +12,8 @@ const { locale } = useI18n();
   <div>
     <UApp :locale="locales[locale]">
       <NuxtLayout>
-        <UMain>
-          <NuxtRouteAnnouncer />
-          <NuxtPage class="min-h-dvh min-h-screen" />
-        </UMain>
+        <NuxtRouteAnnouncer />
+        <NuxtPage />
       </NuxtLayout>
     </UApp>
   </div>

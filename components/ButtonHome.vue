@@ -10,7 +10,7 @@ const localePath = useLocalePath();
     class="text-info max-w-max"
     :to="localePath('index')"
     :ui="{
-      leadingIcon: 'size-12',
+      leadingIcon: 'p-0 size-7 sm:size-8 md:size-10 lg:size-10 xl:size-12',
       base: 'px-0 py-0 ',
     }"
   />

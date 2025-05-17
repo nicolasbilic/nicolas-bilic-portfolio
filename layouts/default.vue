@@ -34,13 +34,19 @@ const isHome = computed(() => route.path === localePath("index"));
       <UContainer>
         <UPage>
           <template #left>
-            <component :is="isHome ? ContainerCenter : 'div'">
-              <UPageAside :ui="{ root: 'flex lg:block lg:max-h-screen' }">
+            <ContainerCenter class="hidden lg:flex">
+              <!-- <ContainerCenter :class="['hidden lg:flex', { 'pt-24': !isHome }]"> -->
+              <UPageAside
+                :ui="{ root: 'hidden lg:block lg:max-h-screen lg:top-0' }"
+              >
                 <Sidebar />
               </UPageAside>
-            </component>
+            </ContainerCenter>
           </template>
           <slot />
+          <UPageAside :ui="{ root: 'block lg:hidden' }">
+            <Sidebar />
+          </UPageAside>
         </UPage>
       </UContainer>
     </Body>

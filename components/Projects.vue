@@ -44,7 +44,7 @@ const moreProjects = [
   <UPageCard
     spotlight
     spotlight-color="info"
-    class="flex w-full flex-col gap-4"
+    class="mt-10 flex w-full flex-col gap-4 lg:mt-0"
     :ui="{ container: 'p-4 sm:p-10', root: 'ring-1' }"
   >
     <UPageMarquee
@@ -60,8 +60,8 @@ const moreProjects = [
         :key="index"
         :to="project.to"
         target="_blank"
-        :ui="{ container: 'p-0 sm:p-0', root: 'ring-3' }"
-        class="relative w-[500px]"
+        :ui="{ container: 'p-0 sm:p-0', root: 'ring-2' }"
+        class="relative w-xs md:w-sm lg:w-[500px]"
         highlight
         highlight-color="info"
       >
@@ -91,8 +91,8 @@ const moreProjects = [
         :key="index"
         :to="project.to"
         target="_blank"
-        :ui="{ container: 'p-0 sm:p-0', root: 'ring-3' }"
-        class="relative w-[500px]"
+        :ui="{ container: 'p-0 sm:p-0', root: 'ring-2' }"
+        class="relative w-xs md:w-sm lg:w-[500px]"
         highlight
         highlight-color="info"
       >

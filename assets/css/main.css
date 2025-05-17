@@ -1,7 +1,5 @@
 @import "tailwindcss";
 @import "@nuxt/ui-pro";
-@import "./keyframes.css";
-@import "./animations.css";
 
 /* https://uicolors.app/generate/ffffff */
 
@@ -12,4 +10,21 @@
 /* use nuxt ui dynamic color based on light/dark mode */
 .nuxt-ui-neutral-400 {
   color: var(--ui-color-neutral-400);
+}
+
+/* transition for all pages */
+.page-enter-to {
+  opacity: 1;
+  transform: translateY(0);
+}
+.page-enter-active,
+.page-leave-active {
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
 }

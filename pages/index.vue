@@ -17,10 +17,14 @@ useSeoMeta({
 </script>
 
 <template>
-  <ContainerCenter>
-    <Projects />
-  </ContainerCenter>
+  <div>
+    <ContainerCenter class="hidden lg:flex">
+      <Projects />
+    </ContainerCenter>
+
+    <Projects class="flex lg:hidden" />
+  </div>
 </template>
 
 <!-- gsap 1 animation -->
-<!-- version mobile -->
+<!-- layout -->

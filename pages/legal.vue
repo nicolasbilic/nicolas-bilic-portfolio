@@ -85,7 +85,9 @@ useSeoMeta({
 
             <p class="pb-2">{{ $t("legal_paragraph_mediation") }}</p>
 
-            <h5 class="mt-4 mb-4">La Société Médiation Professionnelle</h5>
+            <h5 class="mt-4 mb-4">
+              Société Médiation Professionnelle - Alteritae
+            </h5>
             <ul class="mb-4 list-disc ps-8">
               <li>{{ $t("legal_paragraph_mediation°2") }}</li>
               <li>{{ $t("legal_paragraph_mediation°3") }}</li>

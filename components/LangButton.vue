@@ -32,14 +32,14 @@ const getFlag = (code: string) => {
         langName: t(`language.${locale.code}`),
       })
     "
-    class="flex"
+    class="flex lg:pt-1"
   >
     <img
       :src="getFlag(locale.code)"
       alt=""
       width="30"
       height="auto"
-      class="flex size-9 items-center justify-center"
+      class="flex size-7 items-center justify-center md:size-8 lg:size-8 xl:size-9"
     />
   </a>
 </template>
