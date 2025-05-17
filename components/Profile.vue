@@ -14,6 +14,4 @@
       class="absolute inset-0 rounded-full"
     />
   </div>
-
-  <h1 class="text-3xl font-bold">Nicolas</h1>
 </template>

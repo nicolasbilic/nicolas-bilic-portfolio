@@ -2,205 +2,36 @@
   "projects": {
     "comingSoon": "Coming soon"
   },
-  "preceptor": "The Preceptor",
-  "logo_preceptor": "The Preceptor logo",
   "seo": {
     "home": {
-      "title": "Home",
-      "description": "The Preceptor is a philosophy podcast"
-    },
-    "about": {
-      "title": "Charles Robin - Philosophy Professor",
-      "description": "Discover Charles Robin, philosophy professor and creator of the YouTube and podcast The Preceptor"
-    },
-    "videos": {
-      "title": "Online Philosophy Videos",
-      "description": "Browse all my philosophy videos. Explore key concepts, authors, and schools of thought through online replays."
-    },
-    "courses": {
-      "title": "Online philosophy courses",
-      "description": "Enhance your philosophy knowledge with online courses from The Preceptor for all levels. Explore key concepts, authors and schools of thought on replay online."
-    },
-    "books": {
-      "title": "Philosophy books and comics",
-      "description": "Order the Preceptor's books and comics online. These works make discovering philosophy fun and accessible to all levels."
-    },
-    "news": {
-      "title": "Philosophy news",
-      "description": "Check out the latest news from Charles Robin, philosophy vulgarisator and creator of the Youtube and podcast The Preceptor, followed by more than a million subscribers."
-    },
-    "contact": {
-      "title": "Contact",
-      "description": "Check out the latest news from Charles Robin, philosophy vulgarisator and creator of the Youtube and podcast The Preceptor, followed by more than a million subscribers."
+      "title": "Nicolas Bilic Official Website • Professional Websites, Design",
+      "description": "Nicolas Bilic • professional websites, design, web."
     },
     "legal": {
-      "title": "Legal notice",
+      "title": "Legal notice • Nicolas Bilic",
       "description": "Learn more about our legal notice"
     },
-    "privacy-policy": {
-      "title": "Privacy policy",
+    "privacy_policy": {
+      "title": "Privacy policy • Nicolas Bilic",
       "description": "Learn more about our privacy policy"
     },
-    "terms-of-use": {
-      "title": "Terms of use",
+    "terms_of_use": {
+      "title": "Terms of use • Nicolas Bilic",
       "description": "Learn more about our terms of use"
     }
   },
   "link": {
     "home": "Home",
-    "about": "About me",
-    "resources": "Resources",
-    "videos": "Videos",
-    "courses": "Courses",
-    "books": "Books",
-    "news": "News",
-    "support": "Support Me"
-  },
-  "courses": {
-    "description": "Discover my courses"
-  },
-  "books": {
-    "description": "Order my books"
-  },
-  "videos": {
-    "description": "Explore all my videos"
+    "legal": "Legal notice",
+    "privacy_policy": "Privacy policy",
+    "terms_of_use": "Terms of use"
   },
   "button": {
-    "changeLanguage": "Change language to {langName}",
-    "changeLanguage2": "Change language",
-    "changeMode": "Change mode"
+    "changeLanguage": "Change language to {langName}"
   },
   "language": {
     "fr": "French",
     "en": "English"
-  },
-  "hero": {
-    "title": "Food For Thought",
-    "description": "France's #1 Philosophy Channel",
-    "cta_spotify": "Listen Now",
-    "cta_youtube": "Last Video"
-  },
-  "quotes": {
-  "1": "I think, therefore I am",
-  "2": "Know thyself",
-  "3": "I know that I know nothing",
-  "4": "Death is nothing to us"
-  },
-  "user_testimonials": {
-    "quote": {
-      "1": "Each episode makes me think differently — it’s captivating.",
-      "2": "An enlightening, accessible, and always stimulating podcast.",
-      "3": "I listen during my commute. It feeds my curiosity every day.",
-      "4": "Finally, a podcast that doesn’t treat listeners like fools.",
-      "5": "A great way to approach philosophy without jargon or pretension.",
-      "6": "I love how clearly complex ideas are explained.",
-      "7": "It’s a weekly appointment I never miss.",
-      "8": "A true breath of fresh air for the mind — simple yet deep."
-    },
-    "headline": "Testimonials",
-    "title": "A podcast that resonates",
-    "description": "Listeners share how the podcast has had an impact on their daily lives."
-  },
-  "brand_testimonials": {
-    "headline": "Media",
-    "title": "In the media",
-    "description": "Featured in media outlets such as Le Monde, Huffington Post, France Info, and more."
-  },
-  "podcasts": {
-    "title": "Listen wherever you like",
-    "description": "Find all episodes on your favorite platform: YouTube, Spotify, Apple Podcasts, and more.",
-    "headline": "Podcasts"
-  },
-  "banner": {
-    "title": "New book available soon!", 
-    "cta": "Kepp me posted"
-  },
-  "videosIntro": {
-    "title": "Freud, Netflix, and More",
-    "description": "From pop culture to ancient thinkers, I introduce you to a philosopher's thought or invite you to reflect on a philosophical subject.",
-    "cta": "Explore"
-  },
-  "bookIntro": {
-    "title": "Tous philosophes ?",
-    "description": "Download my book for free.",
-    "cta": "Download",
-    "features": {
-      "1": {
-        "title": "Kant",
-        "description": "Did you know that when a child says, “I didn’t mean to,” they're echoing Kant’s deontological ethics."
-      },
-      "2": {
-        "title": "Sartre",
-        "description": "Ever said, “I do what I want”? That’s a glimpse into Sartre’s existentialism — a bold stance against determinism."
-      },
-      "3": {
-        "title": "Schopenhauer",
-        "description": "And when someone says “I love you,” could it be nature’s trick? For Schopenhauer, love is merely the will to… reproduce the species."
-      }
-    }
-  },
-  "podcasts_stats": {
-    "section": {
-      "title": "The podcast in numbers",
-      "description": "Little by little, the project has grown with you. Here are a few highlights."
-    },
-    "features": {
-      "youtube": {
-        "title": "1 million subscribers on YouTube",
-        "description": "A loyal and engaged YouTube community over the years."
-      },
-      "podcast": {
-        "title": "150+ podcast episodes",
-        "description": "Hours of reflections on philosophy and life."
-      },
-      "courses": {
-        "title": "10+ online courses",
-        "description": "Accessible training to share knowledge, available on Patreon."
-      }
-    }
-  },
-  "about_me": {
-    "title": "Who am I?",
-    "paragraphs": {
-      "paragraph1": "My name is Charles Robin. I worked as a private philosophy teacher for ten years. I created the YouTube channel Le Précepteur in 2018 to share my passion for philosophy.",
-      "paragraph2": "When I started on YouTube, I never imagined that philosophy could generate so much public interest. YouTube is mainly a platform for entertainment, and if someone had told me one day that my videos on Plato, Spinoza, or Stoicism would be watched by millions of people, I wouldn’t have believed it.",
-      "paragraph3": "It's quite paradoxical because, deep down, I’ve always believed that philosophy is a discipline open to everyone and meant for the greatest number. Very often, when people turn their backs on philosophy, it's mostly because of the way it is presented to them. Many associate it with pompous and useless rambling, without realizing that the questions philosophy raises are questions that concern them directly and that they ask themselves throughout their lives. And for that, it’s mainly the philosophers themselves who are to blame."
-    }
-  },
-  "about_philosophy": {
-    "title": "My Philosophy",
-    "paragraphs": {
-      "paragraph1": "My way of talking about philosophy goes against this conception. I believe that if what we say is not understood by the audience or does not spark their interest, the problem doesn't come from the audience, but from us.",
-      "paragraph2": "I have always felt it necessary to put myself in the shoes of the person I am addressing, and to find the words that will make my message understandable. It’s this commitment to clarity and simplicity that I believe is at the root of my channel’s success.",
-      "paragraph3": "When I see a comment from someone saying that I’ve helped them reconnect with philosophy, that’s the greatest reward for me. Because then, my work truly makes sense — that of being a mediator between great thinkers and the public, and of providing material for thought."
-    }
-  },
-  "newsletter": {
-    "success": {
-      "title": "You're subscribed to my newsletter!",
-      "description": "Thank you for your trust. You'll soon receive my content before everyone else."
-    },
-    "error": {
-      "title": "An error occurred",
-      "description": "Unable to add email to newsletter."
-    },
-    "already_subscribed": {
-      "title": "You're already subscribed!",
-      "description": "Your email is already registered for the newsletter."
-    },
-    "required_email": "Email is required.",
-    "invalid_email": "Invalid email address",
-    "placeholder": "Enter your email",
-    "subscribe": "Subscribe",
-    "paragraphs": {
-      "paragraph1": "Subscribe to my newsletter to stay up to date with the latest news from the Preceptor podcast.",
-      "paragraph2": "You’ll receive exclusive episode summaries, inspiring quotes, book recommendations, and early invitations to upcoming events.",
-      "paragraph3": "Get my ideas, reflections, and more — delivered straight to your inbox, before anyone else."
-    },
-    "modal": {
-      "desc": "Subscribe to my newsletter and receive your free copy of the book “Tous Philosophes” as well as all the latest news from the Preceptor podcast.",
-      "cancel": "Cancel"
-    }
   },
   "legal_h1": "Legal information",
   "legal_date": "Effective as of 03/20/2025",
@@ -211,7 +42,7 @@
   "legal_paragraph_2_3": "This legal notice is written in French. Only the original French version is valid and takes precedence over any translated or interpreted versions.",
   "article_1": "ARTICLE 1 - THE PUBLISHER",
   "article_2": "ARTICLE 2 - HOST",
-  "article_3": "ARTICLE 3 - INTELLECTUAL PROPERTY",
+  "article_intellectual": "ARTICLE 4 - INTELLECTUAL PROPERTY",
   "article_4": "ARTICLE 4 - DATA COLLECTION",
   "legal_paragraph_3": "The Site is edited and published by Nicolas Bilic hereinafter the Editor, whose address is 204 Montée de la Grande Vigne, telephone number 06 45 90 13 4, e-mail address",
   "legal_paragraph_3_1": "This site was created by Nicolas Bilic EI, web developer, contact: ",
@@ -234,10 +65,11 @@
   "legal_paragraph_13": "Users also have the right to lodge a complaint with the Commission Nationale de l'Informatique et des Libertés (CNIL) if they feel that their rights have not been respected. For further information, please visit the CNIL website: www.cnil.fr.",
   "legal_paragraph_14": "We take all necessary measures to protect personal data against unauthorized access, alteration or destruction.",
   "legal_paragraph_15": "Any use, reproduction, distribution, marketing or modification of all or part of the Site without the Publisher's authorization is prohibited and may result in legal action and proceedings as provided for in particular by the French Intellectual Property Code and the French Civil Code.",
-  "article_mediation": "ARTICLE 5 - MEDIATION",
+  "article_mediation": "ARTICLE 3 - MEDIATION",
   "legal_paragraph_mediation": "In case of a dispute between the Client and the company, the latter will try to resolve it amicably (the Client will send a written complaint to the professional or, if necessary, to the Service Relations Clientele professional). In the absence of amicable agreement or in the absence of a response from the professional within a reasonable time frame of one (1) month, the Client consumer at the meaning of article L.133-4 of the code of consumption will be able to enter freely, if a disagreement exists, the competent mediator registered on the list of mediators established by the Commission for the evaluation and control of the mediation of the consumption in application of article L.615-1 of the code of consumption, that is to say:",
-
-  "attributions": "Attributions",
+    "legal_paragraph_mediation°2": "Site web : www.mediateur-consommation-smp.fr",
+  "legal_paragraph_mediation°3": "Adresse : 24 rue Albert de Mun, 33000 Bordeaux",
+  "legal_paragraph_mediation°4": "Consumers can contact a consumer mediator to resolve any disputes amicably.",
   "pp_title": "Privacy Policy",
   "pp_paragraph_1": "This privacy policy may be modified or supplemented at any time, therefore, users of the website are encouraged to review it regularly.",
   "pp_paragraph_2": "The Client declares that they have read the entire privacy policy by visiting the website and accept it without restriction or reservation.",
@@ -282,10 +114,6 @@
   "cu_paragraph_4": "This site or any part of this site must not be reproduced, copied, sold, or exploited for commercial purposes without express written permission.",
   "cu_paragraph_5": "You must not use techniques to copy a trademark, logo, or any other information (including images, text) that we own without explicit written consent by email",
   "cu_paragraph_6": "You must not use meta tags or any other hidden text containing our name without express written consent. Any unauthorized use will terminate the license we grant you.",
-  "cu_h2_1": "GRAPHIC ATTRIBUTION AND PHOTOGRAPHS",
-  "cu_paragraph_7": "Photographs created by L'Escale Provencale.",
-  "cu_paragraph_8": "The images and photographs presented on this site are not free of rights.",
-  "cu_paragraph_9": "Free icons",
   "cu_h2_2": "HYPERTEXT LINKS",
   "cu_paragraph_10": "This site allows, on a non-exclusive and revocable basis, to create a hyperlink pointing to the homepage or another page, provided that this link does not create a misleading, false, pejorative, or harmful character. Under no circumstances will the creation of this hyperlink engage the Site's responsibility, for any reason, regarding the content of the site. Any use in your link of the logo, brand, or graphics and graphic creations requires express written permission by email",
   "cu_paragraph_11": "The reasons mentioned above are for example purposes and should not be interpreted as exhaustive."

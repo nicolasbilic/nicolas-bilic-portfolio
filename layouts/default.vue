@@ -1,8 +1,14 @@
 <!-- This is the default layout applied to all pages unless another layout is specified -->
 
 <script setup lang="ts">
+import ContainerCenter from "~/components/ContainerCenter.vue";
+
 // generates <html>, <meta> and <link> tags for SEO and localization
 const head = useLocaleHead();
+
+const localePath = useLocalePath();
+const route = useRoute();
+const isHome = computed(() => route.path === localePath("index"));
 </script>
 
 <template>
@@ -28,11 +34,11 @@ const head = useLocaleHead();
       <UContainer>
         <UPage>
           <template #left>
-            <ContainerCenter>
+            <component :is="isHome ? ContainerCenter : 'div'">
               <UPageAside :ui="{ root: 'flex lg:block lg:max-h-screen' }">
                 <Sidebar />
               </UPageAside>
-            </ContainerCenter>
+            </component>
           </template>
           <slot />
         </UPage>

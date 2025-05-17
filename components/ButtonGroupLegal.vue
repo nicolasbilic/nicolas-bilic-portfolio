@@ -6,15 +6,15 @@ const localePath = useLocalePath();
 
 const items = computed<DropdownMenuItem[]>(() => [
   {
-    label: t("seo.legal.title"),
+    label: t("link.legal"),
     to: localePath("legal"),
   },
   {
-    label: t("seo.privacy-policy.title"),
+    label: t("link.privacy_policy"),
     to: localePath("privacy-policy"),
   },
   {
-    label: t("seo.terms-of-use.title"),
+    label: t("link.terms_of_use"),
     to: localePath("terms-of-use"),
   },
 ]);

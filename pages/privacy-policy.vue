@@ -1,5 +1,21 @@
 <!-- Privacy policy page, explaining how users' personal data is managed. -->
 
+<script setup lang="ts">
+const { t } = useI18n();
+
+useSeoMeta({
+  title: t("seo.privacy_policy.title"),
+  description: t("seo.privacy_policy.description"),
+  ogTitle: t("seo.privacy_policy.title"),
+  ogDescription: t("seo.privacy_policy.description"),
+  ogImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+  twitterCard: "summary_large_image",
+  twitterTitle: t("seo.privacy_policy.title"),
+  twitterDescription: t("seo.privacy_policy.description"),
+  twitterImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+});
+</script>
+
 <template>
   <div>
     <div

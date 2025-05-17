@@ -1,4 +1,19 @@
 <!-- Legal notice page, containing the site's legal information. -->
+<script setup lang="ts">
+const { t } = useI18n();
+
+useSeoMeta({
+  title: t("seo.legal.title"),
+  description: t("seo.legal.description"),
+  ogTitle: t("seo.legal.title"),
+  ogDescription: t("seo.legal.description"),
+  ogImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+  twitterCard: "summary_large_image",
+  twitterTitle: t("seo.legal.title"),
+  twitterDescription: t("seo.legal.description"),
+  twitterImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+});
+</script>
 
 <template>
   <section>

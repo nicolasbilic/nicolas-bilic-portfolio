@@ -2,205 +2,36 @@
   "projects": {
     "comingSoon": "Bientôt prêt"
   },
-  "preceptor": "Le Précepteur",
-  "logo_preceptor": "Logo Le Précepteur",
   "seo": {
     "home": {
-      "title": "Accueil",
-      "description": "Le Précepteur est un podcast de philosophie"
-    },
-    "about": {
-      "title": "Charles Robin - Professeur de philosophie",
-      "description": "Découvrez Charles Robin, professeur de philosophie et créateur de la chaine YouTube et du podcast Le Précepteur"
-    },
-    "videos": {
-      "title": "Vidéos de philosophie en ligne",
-      "description": "Parcourez toutes mes vidéos de philosophie. Explorez concepts clés, auteurs et courants de pensée sur les replay en ligne."
-    },
-    "courses": {
-      "title": "Cours de philosophie en ligne",
-      "description": "Renforcez vos bases en philosophie avec les cours en ligne du Précepteur pour tous niveaux. Explorez concepts clés, auteurs et courants de pensée sur les replay en ligne."
-    },
-    "books": {
-      "title": "Livres et BD de philosophie",
-      "description": "Commandez en ligne les livres et les BD du Précepteur. Ces ouvrages rendent la découverte de la philosophie ludique et accessible à tous les niveaux."
-    },
-    "news": {
-      "title": "Actualité philo",
-      "description": "Consultez les dernières actualités de Charles Robin, vulgarisateur de philosophie et créateur de la chaîne Youtube et du podcast Le Précepteur, suivi par plus d'un million d'abonnés."
-    },
-    "contact": {
-      "title": "Contact",
-      "description": "Consultez les dernières actualités de Charles Robin, vulgarisateur de philosophie et créateur de la chaîne Youtube et du podcast Le Précepteur, suivi par plus d'un million d'abonnés."
+      "title": "Nicolas Bilic Site Officiel - Sites internet, Professionnel, Design",
+      "description": "Nicolas Bilic - sites internet profesionnels, design, web."
     },
     "legal": {
-      "title": "Mentions légales",
-      "description": "Découvrez les mentions légales"
+      "title": "Mentions légales - Nicolas Bilic",
+      "description": "Découvrez les mentions légales."
     },
-    "privacy-policy": {
-      "title": "Politique de confidentialité",
-      "description": "Découvrez la politique de confidentialité"
+    "privacy_policy": {
+      "title": "Politique de confidentialité - Nicolas Bilic",
+      "description": "Découvrez la politique de confidentialité."
     },
-    "terms-of-use": {
-      "title": "Conditions d'utilisation",
-      "description": "Découvrez les conditions d'utilisation"
+    "terms_of_use": {
+      "title": "Conditions d'utilisation - Nicolas Bilic",
+      "description": "Découvrez les conditions d'utilisation."
     }
   },
   "link": {
     "home": "Accueil",
-    "about": "Qui Suis-Je",
-    "resources": "Ressources",
-    "videos": "Vidéos",
-    "courses": "Cours",
-    "books": "Livres",
-    "news": "À La Une",
-    "support": "Me Soutenir"
-  },
-  "courses": {
-    "description": "Découvrez mes cours"
-  },
-  "books": {
-    "description": "Commandez mes livres"
-  },
-  "videos": {
-    "description": "Explorez toutes mes vidéos"
+    "legal": "Mentions légales",
+    "privacy_policy": "Politique de confidentialité",
+    "terms_of_use": "Conditions d'utilisation"
   },
   "button": {
-    "changeLanguage": "Changer la langue en {langName}",
-    "changeLanguage2": "Changer la langue",
-    "changeMode": "Changer le mode"
+    "changeLanguage": "Changer la langue en {langName}"
   },
   "language": {
     "fr": "Français",
     "en": "Anglais"
-  },
-  "hero": {
-    "title": "Donner Matière À Penser",
-    "description": "1ère chaine de philosophie en France",
-    "cta_spotify": "Écoutez Maintenant",
-    "cta_youtube": "Dernière Vidéo"
-  },
-  "quotes": {
-    "1": "Je pense donc je suis",
-    "2": "Connais toi toi-même",
-    "3": "Je sais que je ne sais rien",
-    "4": "La mort n'est rien pour nous"
-  },
-  "user_testimonials": {
-    "quote": {
-      "1": "Chaque épisode me pousse à réfléchir différemment, c’est captivant.",
-      "2": "Un podcast éclairant, accessible et toujours stimulant.",
-      "3": "J’écoute pendant mes trajets. Ça nourrit ma curiosité chaque jour.",
-      "4": "Enfin un podcast qui ne prend pas ses auditeurs pour des idiots.",
-      "5": "Une belle façon d’aborder la philo sans jargon ni prétention.",
-      "6": "J’aime la clarté avec laquelle les idées complexes sont expliquées.",
-      "7": "C’est un rendez-vous hebdo que je ne manque jamais.",
-      "8": "Une vraie bouffée d’air pour l’esprit, simple et profond à la fois."
-    },
-    "headline": "Témoignages",
-    "title": "Un podcast qui résonne",
-    "description": "Les auditeurs racontent l’impact du podcast dans leur quotidien"
-  },
-  "brand_testimonials": {
-    "headline": "Médias",
-    "title": "Ils en parlent",
-    "description": "Mentionné dans les médias tels que Le Monde, Huffington Post, France Info, et plus encore."
-  },
-  "podcasts": {
-    "title": "Écoute le podcast où tu veux",
-    "description": "Retrouve tous les épisodes sur ta plateforme préférée : YouTube, Spotify, Apple Podcasts, et bien d’autres.",
-    "headline": "Podcasts"
-  },
-  "banner": {
-    "title": "Nouveau livre disponible en Septembre !",
-    "cta": "Tiens moi informé(e)"
-  },
-  "videosIntro": {
-    "title": "Freud, Netflix et plus encore",
-    "description": "De la culture pop aux penseurs de l’Antiquité, je vous présente la pensée d'un philosophe ou je vous invite à la réflexion sur un sujet philosophique.",
-    "cta": "Explorer"
-  },
-  "bookIntro": {
-    "title": "Tous philosophes ?",
-    "description": "Téléchargez mon livre gratuitement.",
-    "cta": "Télécharger",
-    "features": {
-      "1": {
-        "title": "Kant",
-        "description": "Saviez-vous qu’un enfant qui dit « Je n’ai pas fait exprès » manifestait en fait son adhésion à la morale déontologiste de Kant ?"
-      },
-      "2": {
-        "title": "Sartre",
-        "description": "Saviez-vous que le fait de dire « Je fais ce que je veux » traduisait un net penchant pour l’existentialisme de Sartre et son rejet du déterminisme ?"
-      },
-      "3": {
-        "title": "Schopenhauer",
-        "description": "Saviez-vous enfin que quelqu’un qui vous disait « Je t’aime » était en réalité victime d’un stratagème de la nature ? Aimer, pour Schopenhauer, c’est d’abord vouloir… reproduire l’espèce ! [...]"
-      }
-    }
-  },
-  "podcasts_stats": {
-    "section": {
-      "title": "Le podcast en chiffres",
-      "description": "Petit à petit, le projet a grandi avec vous. Voici quelques repères."
-    },
-    "features": {
-      "youtube": {
-        "title": "1 million d’abonnés sur Youtube",
-        "description": "Une communauté engagée sur YouTube, fidèle depuis plusieurs années."
-      },
-      "podcast": {
-        "title": "150+ épisodes de podcast",
-        "description": "Des heures de réflexions partagées autour de la philosophie et de la vie."
-      },
-      "courses": {
-        "title": "10+ cours en ligne",
-        "description": "Des formations accessibles pour transmettre des savoirs, disponible sur Patreon."
-      }
-    }
-  },
-  "about_me": {
-    "title": "Qui suis-je ?",
-    "paragraphs": {
-      "paragraph1": "Je m'appelle Charles Robin, j'ai exercé comme professeur particulier de philosophie pendant dix ans. J'ai créé la chaîne YouTube Le Précepteur en 2018 pour partager ma passion pour la philosophie.",
-      "paragraph2": "Lorsque j'ai démarré sur YouTube, je n'imaginais pas qu'il puisse y avoir un tel engouement du public pour la philosophie. YouTube est avant tout une plateforme de divertissement, et si on m'avait dit un jour que mes vidéos sur Platon, sur Spinoza ou sur le stoïcisme seraient vues par plusieurs millions de personnes, je ne l'aurais jamais cru.",
-      "paragraph3": "C'est assez paradoxal car, au fond, j'ai toujours considéré que la philosophie était une discipline ouverte à tous et qui s'adressait au plus grand nombre. Bien souvent, si les gens tournent le dos à la philosophie, c'est surtout à cause de la manière dont on leur en parle. Beaucoup l'associent à du verbiage pompeux et sans grande utilité, sans voir que les questions que soulève la philosophie sont des questions qui les concernent directement et qu'ils se posent eux-mêmes au cours de leur vie. Et ça, ce sont d'abord les représentants de la philosophie qui en sont responsables."
-    }
-  },
-  "about_philosophy": {
-    "title": "Ma philosophie",
-    "paragraphs": {
-      "paragraph1": "Ma manière de parler de philosophie va à rebours de cette conception. Je considère que si ce qu'on dit n'est pas compris par le public ou ne suscite pas son intérêt, le problème ne vient pas du public, mais de nous.",
-      "paragraph2": "J'ai toujours estimé nécessaire de me mettre à la place de celui ou celle à qui je m'adresse, et de trouver les mots qui rendront mon propos compréhensible. C'est cet attachement à la clarté et à la simplicité qui, je pense, est à l'origine du succès de ma chaîne.",
-      "paragraph3": "Lorsque je vois passer un commentaire d'un internaute qui me fait savoir que je l'ai réconcilié avec la philosophie, c'est pour moi la plus grande des récompenses. Car alors mon travail prend tout son sens, celui d'être un médiateur entre les grands auteurs et le public, celui de donner de la matière à la pensée."
-    }
-  },
-  "newsletter": {
-    "success": {
-      "title": "Tu es abonné à ma newsletter !",
-      "description": "Merci pour ta confiance. Tu recevras bientôt mon contenu en avant-première."
-    },
-    "error": {
-      "title": "Une erreur est survenue",
-      "description": "Impossible d'ajouter l'e-mail à la newsletter."
-    },
-    "already_subscribed": {
-      "title": "Tu es déjà abonné !",
-      "description": "Ton adresse est déjà inscrite à la newsletter."
-    },
-    "required_email": "L'adresse e-mail est obligatoire.",
-    "invalid_email": "Adresse e-mail invalide",
-    "placeholder": "Entrez votre e-mail",
-    "subscribe": "Je m'abonne",
-    "paragraphs": {
-      "paragraph1": "Abonnez-vous à ma newsletter pour être au courant de l'actualité du podcast Le Précepteur.",
-      "paragraph2": "Vous y trouverez des résumés exclusifs des épisodes, des citations inspirantes, des recommandations de lectures, ainsi que des invitations à des événements.",
-      "paragraph3": "Vous recevrez mes idées, réflexions et plus en avant-première, directement dans votre boîte mail."
-    },
-    "modal": {
-      "desc": "Abonnez-vous à ma newsletter et recevez gratuitement votre livre « Tous Philosophes » ainsi que toutes les actualités du podcast Le Précepteur.",
-      "cancel": "Annuler"
-    }
   },
   "legal_h1": "Mentions légales",
   "legal_date": "Dernière mise à jour : 20/03/2025",
@@ -241,8 +72,6 @@
   "legal_paragraph_mediation°3": "Adresse : 24 rue Albert de Mun, 33000 Bordeaux",
   "legal_paragraph_mediation°4": "Le consommateur peut contacter le médiateur de la consommation pour résoudre à l’amiable tout litige éventuel.",
   "pp_title": "Politique de confidentialité",
-  "privacy_title": "Politique de confidentialité - L'Escale Provençale",
-  "privacy_description": "Retrouvez la politique de confidentialité de L'Escale Provençale.",
   "pp_paragraph_1": "Cette politique de confidentialité est susceptible d’être modifiée ou complétée à tout moment, les utilisateurs du site sont donc invités à la consulter de manière régulière.",
   "pp_paragraph_2": "Le Client déclare avoir pris connaissance de l’ensemble de la politique de confidentialité en visitant le site et de l’accepter sans restriction ni réserve.",
   "pp_paragraph_3": "Cette politique de confidentialité est rédigée en langue française. Seule la présente version originale en langue française fait foi et prévaut sur toute autre version interprétée ou traduite en langue étrangère.",
@@ -279,8 +108,6 @@
   "pp_h5_6": "Questions et coordonnées",
   "pp_paragraph_18": "Si vous souhaitez : accéder à, corriger, modifier ou supprimer toute information personnelle que nous avons à votre sujet, déposer une plainte, ou si vous souhaitez simplement avoir plus d’informations, contactez nous à",
   "cu_title": "Conditions d'utilisation",
-  "terms_title": "Conditions d'utilisation - L'Escale Provençale",
-  "terms_description": "Retrouvez les conditions d'utilisation de L'Escale Provençale.",
   "cu_paragraph_1": "Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site sont donc invités à les consulter de manière régulière.",
   "cu_paragraph_2": "Ces conditions d'utilisation sont rédigées en langue française. Seule la présente version originale en langue française fait foi, et prévaut sur toute autre version interprétée ou traduite en langue étrangère.",
   "cu_h2": "LICENCE D'ACCÈS LIBRE AU SITE",
@@ -288,10 +115,6 @@
   "cu_paragraph_4": "Ce site ou toute partie de ce site ne doit en aucun cas être reproduit, copié, vendu ou exploité pour des raisons commerciales sans autorisation expresse et écrite.",
   "cu_paragraph_5": "Vous ne devez pas utiliser des techniques permettant de copier une marque, un logo ou toute autre information (notamment images, texte) dont nous sommes propriétaire sans accord express et écrit par mail",
   "cu_paragraph_6": "Vous ne devez pas utiliser les meta tags ou tout autre texte \"caché\" contenant notre nom sans accord express et écrit. Toute utilisation non autorisée mettra fin à la licence que nous vous accordons.",
-  "cu_h2_1": "ATTRIBUTION GRAPHIQUES ET PHOTOGRAPHIES",
-  "cu_paragraph_7": "Photographies créées par L'Escale Provencale.",
-  "cu_paragraph_8": "Les images, photographies présentées sur ce site ne sont pas libres de droits.",
-  "cu_paragraph_9": "Icônes libres de droits.",
   "cu_h2_2": "LIENS HYPERTEXTES",
   "cu_paragraph_10": "Ce site autorise, à titre non exclusif et révocable, à créer un lien hypertexte pointant sur la page d’accueil ou autre page à la condition que ce lien ne puisse créer, un caractère mensonger, faux, péjoratif ou pouvant porter préjudice. En aucun cas la création de ce lien hypertexte ne pourra engager la responsabilité du Site, à quelque titre que ce soit, sur le contenu du site. Toute utilisation dans votre lien du logo, de le marque ou des graphismes et créations graphiques nécessite une autorisation expresse et écrite par mail",
   "cu_paragraph_11": "Les raisons ci-dessus mentionnées le sont à titre d’exemple et ne doivent pas être interprétées comme étant exhaustives."

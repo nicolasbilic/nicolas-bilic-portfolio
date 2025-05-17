@@ -21,9 +21,11 @@ const projects = [
 
 const moreProjects = [
   {
-    img: "/images/app-escale-flayoscaise.webp",
-    to: "https://www.escaleflayoscaise.com/",
-    name: "L\'escale Flayoscaise",
+    img: "/images/app-chez-agnes.webp",
+    to: "",
+    name: "Chez Agnès",
+    imgClass: "brightness-50",
+    comingSoon: true,
   },
   {
     img: "/images/app-ludus-studios.webp",
@@ -31,11 +33,9 @@ const moreProjects = [
     name: "Alpes",
   },
   {
-    img: "/images/app-chez-agnes.webp",
-    to: "",
-    name: "Chez Agnès",
-    imgClass: "brightness-50",
-    comingSoon: true,
+    img: "/images/app-escale-flayoscaise.webp",
+    to: "https://www.escaleflayoscaise.com/",
+    name: "L\'escale Flayoscaise",
   },
 ];
 </script>

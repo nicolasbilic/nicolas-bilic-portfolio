@@ -94,3 +94,9 @@ Install Nuxt I18n in your project.
     ```bash
     npm i -D @iconify-json/hugeicons
     ```
+
+## material design icons library
+
+    ```bash
+    npm i -D @iconify-json/mdi
+    ```

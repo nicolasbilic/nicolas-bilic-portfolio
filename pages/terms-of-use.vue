@@ -1,5 +1,21 @@
 <!-- Terms of use page, detailing the site's usage rules for users. -->
 
+<script setup lang="ts">
+const { t } = useI18n();
+
+useSeoMeta({
+  title: t("seo.terms_of_use.title"),
+  description: t("seo.terms_of_use.description"),
+  ogTitle: t("seo.terms_of_use.title"),
+  ogDescription: t("seo.terms_of_use.description"),
+  ogImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+  twitterCard: "summary_large_image",
+  twitterTitle: t("seo.terms_of_use.title"),
+  twitterDescription: t("seo.terms_of_use.description"),
+  twitterImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+});
+</script>
+
 <template>
   <div>
     <div
