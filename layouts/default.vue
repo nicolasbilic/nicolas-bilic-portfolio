@@ -28,9 +28,11 @@ const head = useLocaleHead();
       <UContainer>
         <UPage>
           <template #left>
-            <UPageAside :ui="{ root: 'flex lg:block' }">
-              <Sidebar />
-            </UPageAside>
+            <ContainerCenter>
+              <UPageAside :ui="{ root: 'flex lg:block lg:max-h-screen' }">
+                <Sidebar />
+              </UPageAside>
+            </ContainerCenter>
           </template>
           <slot />
         </UPage>

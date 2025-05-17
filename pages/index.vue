@@ -13,4 +13,7 @@ useSeoMeta({
     <Projects />
   </ContainerCenter>
 </template>
+
 <!-- gsap 1 animation -->
+<!-- version mobile -->
+<!-- meta title et descriptions et plus meta voir le précepteur index -->

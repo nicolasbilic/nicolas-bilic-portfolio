@@ -39,7 +39,7 @@ const getFlag = (code: string) => {
       alt=""
       width="30"
       height="auto"
-      class="flex items-center justify-center"
+      class="flex size-9 items-center justify-center"
     />
   </a>
 </template>

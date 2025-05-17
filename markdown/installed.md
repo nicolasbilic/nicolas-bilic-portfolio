@@ -83,4 +83,14 @@ Install Nuxt I18n in your project.
     npx nuxi@latest module add @nuxtjs/i18n
     ```
 
-#
+## material-symbols library
+
+    ```bash
+    npm i -D @iconify-json/material-symbols
+    ```
+
+## hugeicons library
+
+    ```bash
+    npm i -D @iconify-json/hugeicons
+    ```
