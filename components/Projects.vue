@@ -40,7 +40,12 @@ const moreProjects = [
 </script>
 
 <template>
-  <div class="flex w-full flex-col gap-4">
+  <UPageCard
+    spotlight
+    spotlight-color="info"
+    class="flex w-full flex-col gap-4"
+    :ui="{ container: 'p-4 sm:p-10', root: 'ring-1' }"
+  >
     <UPageMarquee
       pause-on-hover
       :overlay="true"
@@ -54,8 +59,6 @@ const moreProjects = [
         :key="index"
         :to="project.to"
         target="_blank"
-        spotlight
-        spotlight-color="info"
         :ui="{ container: 'p-0 sm:p-0' }"
         class="relative w-[450px] shrink-0 overflow-hidden"
       >
@@ -93,8 +96,6 @@ const moreProjects = [
         :key="index"
         :to="project.to"
         target="_blank"
-        spotlight
-        spotlight-color="info"
         :ui="{ container: 'p-0 sm:p-0' }"
         class="w-[500px] shrink-0"
       >
@@ -108,5 +109,5 @@ const moreProjects = [
         />
       </UPageCard>
     </UPageMarquee>
-  </div>
+  </UPageCard>
 </template>

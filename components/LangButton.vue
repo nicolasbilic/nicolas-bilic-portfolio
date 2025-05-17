@@ -37,7 +37,7 @@ const getFlag = (code: string) => {
     <img
       :src="getFlag(locale.code)"
       alt=""
-      width="25"
+      width="30"
       height="auto"
       class="flex items-center justify-center"
     />

@@ -25,7 +25,16 @@ const head = useLocaleHead();
       </template>
     </Head>
     <Body>
-      <slot />
+      <UContainer>
+        <UPage>
+          <template #left>
+            <UPageAside :ui="{ root: 'flex lg:block' }">
+              <Sidebar />
+            </UPageAside>
+          </template>
+          <slot />
+        </UPage>
+      </UContainer>
     </Body>
   </Html>
 </template>

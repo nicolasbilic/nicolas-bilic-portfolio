@@ -10,18 +10,7 @@ useSeoMeta({
 
 <template>
   <ContainerCenter>
-    <UContainer>
-      <UPage>
-        <template #left>
-          <UPageAside :ui="{ root: 'flex lg:block' }">
-            <Sidebar />
-          </UPageAside>
-        </template>
-        <div class="relative">
-          <!-- <Separator /> -->
-          <Projects />
-        </div>
-      </UPage>
-    </UContainer>
+    <Projects />
   </ContainerCenter>
 </template>
+<!-- gsap 1 animation -->
