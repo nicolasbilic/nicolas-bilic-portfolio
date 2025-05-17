@@ -3,15 +3,6 @@
 
 /* https://uicolors.app/generate/ffffff */
 
-/* @theme static {
-  
-} */
-
-/* use nuxt ui dynamic color based on light/dark mode */
-.nuxt-ui-neutral-400 {
-  color: var(--ui-color-neutral-400);
-}
-
 /* transition for all pages */
 .page-enter-to {
   opacity: 1;

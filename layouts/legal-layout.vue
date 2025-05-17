@@ -1,16 +1,5 @@
-<!-- This is the default layout applied to all pages unless another layout is specified -->
-
-<script setup lang="ts">
-// generates <html>, <meta> and <link> tags for SEO and localization
+<script lang="ts" setup>
 const head = useLocaleHead();
-
-onMounted(() => {
-  useGsap.from("#box1", {
-    y: 100,
-    opacity: 0,
-    delay: 1,
-  });
-});
 </script>
 
 <template>
@@ -36,24 +25,22 @@ onMounted(() => {
       <UContainer>
         <UPage>
           <template #left>
-            <ContainerCenter class="hidden lg:flex">
-              <UPageAside
-                :ui="{ root: 'hidden lg:block lg:max-h-screen lg:top-0' }"
-              >
-                <!-- barre latérale ordinateur -->
-                <Sidebar id="box1" />
-              </UPageAside>
-            </ContainerCenter>
+            <UPageAside
+              :ui="{ root: 'hidden lg:block lg:max-h-screen lg:top-0' }"
+            >
+              <!-- barre latérale ordinateur -->
+              <Sidebar class="pt-24" />
+            </UPageAside>
           </template>
-
-          <slot />
-
           <!-- barre horizontale mobile/tablet -->
           <UPageAside :ui="{ root: 'block lg:hidden' }">
             <Sidebar />
           </UPageAside>
+          <slot />
         </UPage>
       </UContainer>
     </Body>
   </Html>
 </template>
+
+<style></style>

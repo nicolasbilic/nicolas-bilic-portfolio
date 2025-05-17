@@ -18,6 +18,7 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@hypernym/nuxt-gsap": "^2.4.3",
     "@iconify-json/hugeicons": "^1.2.5",
     "@iconify-json/material-symbols": "^1.2.21",
     "@iconify-json/mdi": "^1.2.3",

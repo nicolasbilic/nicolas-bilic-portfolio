@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/image', '@nuxt/ui-pro', '@nuxtjs/i18n'],
+  modules: ['@nuxt/image', '@nuxt/ui-pro', '@nuxtjs/i18n', '@hypernym/nuxt-gsap'],
   css: ['~/assets/css/main.css'],
 
   icon: {
@@ -11,8 +11,15 @@ export default defineNuxtConfig({
     },
   },
 
+  gsap: {
+    composables: true,
+    provide: false,
+    extraPlugins: {
+      scrollTrigger: true,
+    }
+  },
+
   app: {
-    // pageTransition: { name: 'page', mode: 'out-in' }, 
     head: {
       title: 'Nicolas Bilic - Portfolio',
       htmlAttrs: {

@@ -13,6 +13,10 @@ useSeoMeta({
   twitterDescription: t("seo.legal.description"),
   twitterImage: "https://nicolasbilic.com/images/app-alpes.jpg",
 });
+
+definePageMeta({
+  layout: "legal-layout",
+});
 </script>
 
 <template>

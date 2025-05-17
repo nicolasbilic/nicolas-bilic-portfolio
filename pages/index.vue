@@ -18,13 +18,12 @@ useSeoMeta({
 
 <template>
   <div>
+    <!-- desktop -->
     <ContainerCenter class="hidden lg:flex">
       <Projects />
     </ContainerCenter>
 
+    <!-- mobile -->
     <Projects class="flex lg:hidden" />
   </div>
 </template>
-
-<!-- gsap 1 animation -->
-<!-- layout -->
