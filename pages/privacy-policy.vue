@@ -8,11 +8,11 @@ useSeoMeta({
   description: t("seo.privacy_policy.description"),
   ogTitle: t("seo.privacy_policy.title"),
   ogDescription: t("seo.privacy_policy.description"),
-  ogImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+  ogImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
   twitterCard: "summary_large_image",
   twitterTitle: t("seo.privacy_policy.title"),
   twitterDescription: t("seo.privacy_policy.description"),
-  twitterImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+  twitterImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
 });
 
 definePageMeta({

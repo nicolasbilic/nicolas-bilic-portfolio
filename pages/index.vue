@@ -8,11 +8,11 @@ useSeoMeta({
   description: t("seo.home.description"),
   ogTitle: t("seo.home.title"),
   ogDescription: t("seo.home.description"),
-  ogImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+  ogImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
   twitterCard: "summary_large_image",
   twitterTitle: t("seo.home.title"),
   twitterDescription: t("seo.home.description"),
-  twitterImage: "https://nicolasbilic.com/images/app-alpes.jpg",
+  twitterImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
 });
 </script>
 
