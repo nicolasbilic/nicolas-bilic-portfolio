@@ -83,6 +83,18 @@ Install Nuxt I18n in your project.
     npx nuxi@latest module add @nuxtjs/i18n
     ```
 
+## GSAP :
+
+[Script](https://gsap.com/docs/v3/)
+
+Install Gsap, animation library
+
+    ```bash
+    npm install gsap
+    ```
+
+### Icons
+
 ## material-symbols library
 
     ```bash

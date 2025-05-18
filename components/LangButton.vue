@@ -36,10 +36,11 @@ const getFlag = (code: string) => {
   >
     <img
       :src="getFlag(locale.code)"
-      alt=""
-      width="30"
-      height="auto"
-      class="flex size-7 items-center justify-center md:size-8 lg:size-8 xl:size-9"
+      width="22"
+      height="28"
+      sizes="22 sm:28 md:32 xl:36"
+      aria-hidden="true"
+      class="flex w-7 items-center justify-center md:w-8 lg:w-8 xl:w-9"
     />
   </a>
 </template>
