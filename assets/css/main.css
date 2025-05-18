@@ -3,6 +3,24 @@
 
 /* https://uicolors.app/generate/ffffff */
 
+@theme {
+  --color-midnight: oklch(20.8% 0.042 265.755);
+}
+
+/* I aplpy dark mode colors to light mode */
+:root {
+  --ui-bg: oklch(20.8% 0.042 265.755);
+  --ui-border: oklch(27.9% 0.041 260.031);
+  --ui-text: oklch(92.9% 0.013 255.508);
+  --ui-text-inverted: oklch(20.8% 0.042 265.755);
+}
+.dark {
+  --ui-bg: oklch(20.8% 0.042 265.755);
+  --ui-border: oklch(27.9% 0.041 260.031);
+  --ui-text: oklch(92.9% 0.013 255.508);
+  --ui-text-inverted: oklch(20.8% 0.042 265.755);
+}
+
 /* transition for all pages */
 .page-enter-to {
   opacity: 1;

@@ -7,13 +7,22 @@ const head = useLocaleHead();
 onMounted(() => {
   useGsap.from("#sidebarHomeLG", {
     y: 100,
-    opacity: 0,
-    delay: 1,
+    // autoAlpha : opacity + visibility
+    autoAlpha: 0,
+    delay: 0.5,
+    onStart: () => {
+      const el = document.getElementById("sidebarHomeLG");
+      if (el) el.style.visibility = "visible";
+    },
   });
   useGsap.from("#sidebarHomeSM", {
     x: -100,
-    opacity: 0,
-    delay: 1,
+    autoAlpha: 0,
+    delay: 0.5,
+    onStart: () => {
+      const el = document.getElementById("sidebarHomeSM");
+      if (el) el.style.visibility = "visible";
+    },
   });
 });
 </script>
@@ -46,7 +55,7 @@ onMounted(() => {
                 :ui="{ root: 'hidden lg:block lg:max-h-screen lg:top-0' }"
               >
                 <!-- barre latérale ordinateur -->
-                <Sidebar id="sidebarHomeLG" />
+                <Sidebar id="sidebarHomeLG" class="invisible" />
               </UPageAside>
             </ContainerCenter>
           </template>
@@ -55,7 +64,7 @@ onMounted(() => {
 
           <!-- barre horizontale mobile/tablet -->
           <UPageAside :ui="{ root: 'block lg:hidden' }">
-            <Sidebar id="sidebarHomeSM" />
+            <Sidebar id="sidebarHomeSM" class="invisible" />
           </UPageAside>
         </UPage>
       </UContainer>

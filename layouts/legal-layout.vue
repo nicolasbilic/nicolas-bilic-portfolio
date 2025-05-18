@@ -4,13 +4,21 @@ const head = useLocaleHead();
 onMounted(() => {
   useGsap.from("#sidebarLegalLG", {
     y: 100,
-    opacity: 0,
-    delay: 1,
+    autoAlpha: 0,
+    delay: 0.5,
+    onStart: () => {
+      const el = document.getElementById("sidebarLegalLG");
+      if (el) el.style.visibility = "visible";
+    },
   });
   useGsap.from("#sidebarLegalSM", {
     x: -100,
-    opacity: 0,
-    delay: 1,
+    autoAlpha: 0,
+    delay: 0.5,
+    onStart: () => {
+      const el = document.getElementById("sidebarLegalSM");
+      if (el) el.style.visibility = "visible";
+    },
   });
 });
 </script>
@@ -42,13 +50,13 @@ onMounted(() => {
               :ui="{ root: 'hidden lg:block lg:max-h-screen lg:top-0' }"
             >
               <!-- barre latérale ordinateur -->
-              <Sidebar id="sidebarLegalLG" class="pt-24" />
+              <Sidebar id="sidebarLegalLG" class="invisible pt-24" />
             </UPageAside>
           </template>
 
           <!-- barre horizontale mobile/tablet -->
           <UPageAside :ui="{ root: 'block lg:hidden' }">
-            <Sidebar id="sidebarLegalSM" />
+            <Sidebar id="sidebarLegalSM" class="invisible" />
           </UPageAside>
           <slot />
         </UPage>
