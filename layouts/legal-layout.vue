@@ -1,5 +1,18 @@
 <script lang="ts" setup>
 const head = useLocaleHead();
+
+onMounted(() => {
+  useGsap.from("#sidebarLegalLG", {
+    y: 100,
+    opacity: 0,
+    delay: 1,
+  });
+  useGsap.from("#sidebarLegalSM", {
+    x: -100,
+    opacity: 0,
+    delay: 1,
+  });
+});
 </script>
 
 <template>
@@ -29,12 +42,13 @@ const head = useLocaleHead();
               :ui="{ root: 'hidden lg:block lg:max-h-screen lg:top-0' }"
             >
               <!-- barre latérale ordinateur -->
-              <Sidebar class="pt-24" />
+              <Sidebar id="sidebarLegalLG" class="pt-24" />
             </UPageAside>
           </template>
+
           <!-- barre horizontale mobile/tablet -->
           <UPageAside :ui="{ root: 'block lg:hidden' }">
-            <Sidebar />
+            <Sidebar id="sidebarLegalSM" />
           </UPageAside>
           <slot />
         </UPage>
@@ -42,5 +56,3 @@ const head = useLocaleHead();
     </Body>
   </Html>
 </template>
-
-<style></style>

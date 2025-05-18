@@ -5,8 +5,13 @@
 const head = useLocaleHead();
 
 onMounted(() => {
-  useGsap.from("#box1", {
+  useGsap.from("#sidebarHomeLG", {
     y: 100,
+    opacity: 0,
+    delay: 1,
+  });
+  useGsap.from("#sidebarHomeSM", {
+    x: -100,
     opacity: 0,
     delay: 1,
   });
@@ -41,7 +46,7 @@ onMounted(() => {
                 :ui="{ root: 'hidden lg:block lg:max-h-screen lg:top-0' }"
               >
                 <!-- barre latérale ordinateur -->
-                <Sidebar id="box1" />
+                <Sidebar id="sidebarHomeLG" />
               </UPageAside>
             </ContainerCenter>
           </template>
@@ -50,7 +55,7 @@ onMounted(() => {
 
           <!-- barre horizontale mobile/tablet -->
           <UPageAside :ui="{ root: 'block lg:hidden' }">
-            <Sidebar />
+            <Sidebar id="sidebarHomeSM" />
           </UPageAside>
         </UPage>
       </UContainer>
