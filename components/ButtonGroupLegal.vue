@@ -28,6 +28,7 @@ const items = computed<DropdownMenuItem[]>(() => [
         color="info"
         variant="ghost"
         icon="i-hugeicons-legal-01"
+        :aria-label="t('accessibility.legal_links')"
       />
     </UDropdownMenu>
   </UButtonGroup>

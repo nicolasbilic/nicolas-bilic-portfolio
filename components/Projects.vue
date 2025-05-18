@@ -4,8 +4,6 @@ const projects = [
     img: "/images/app-escale-provencale.webp",
     to: "https://www.lescaleprovencale.com/",
     name: "L\'escale Provencale",
-    imgClass: "",
-    comingSoon: false,
   },
   {
     img: "/images/app-alpes.webp",
@@ -24,8 +22,6 @@ const moreProjects = [
     img: "/images/app-chez-agnes.webp",
     to: "",
     name: "Chez Agnès",
-    imgClass: "brightness-50",
-    comingSoon: true,
   },
   {
     img: "/images/app-ludus-studios.webp",
@@ -74,10 +70,8 @@ const moreProjects = [
           width="320"
           height="172"
           sizes="320 md:384 lg:500"
-          :class="project.imgClass"
           class="rounded-lg md:w-[384px] lg:w-[500px]"
         />
-        <!-- <ButtonComingSoon v-if="project.comingSoon" /> -->
       </UPageCard>
     </UPageMarquee>
 
@@ -106,10 +100,8 @@ const moreProjects = [
           width="320"
           height="172"
           sizes="320 md:384 lg:500"
-          :class="project.imgClass"
           class="rounded-lg md:w-[384px] lg:w-[500px]"
         />
-        <!-- <ButtonComingSoon v-if="project.comingSoon" /> -->
       </UPageCard>
     </UPageMarquee>
   </UPageCard>

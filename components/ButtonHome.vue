@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const localePath = useLocalePath();
+const { t } = useI18n();
 </script>
 
 <template>
@@ -13,5 +14,6 @@ const localePath = useLocalePath();
       leadingIcon: 'p-0 size-7 sm:size-8 md:size-10 lg:size-10 xl:size-12',
       base: 'px-0 py-0 ',
     }"
+    :aria-label="t('link.home')"
   />
 </template>

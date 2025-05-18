@@ -2,6 +2,7 @@
   <div class="group outline-info relative rounded-full outline-1">
     <NuxtImg
       src="/images/avatar-nicolas-bilic.webp"
+      alt="Avatar Nicolas Bilic"
       width="110"
       height="110"
       sizes="110 sm:140 lg:85 xl:136"
@@ -9,6 +10,7 @@
     />
     <NuxtImg
       src="/images/photo-nicolas-bilic.webp"
+      alt="Photo Nicolas Bilic"
       width="110"
       height="110"
       sizes="110 sm:140 lg:85 xl:136"

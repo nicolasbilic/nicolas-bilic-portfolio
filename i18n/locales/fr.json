@@ -1,4 +1,7 @@
 {
+  "accessibility": {
+    "legal_links": "Liens juridiques"
+  },
   "projects": {
     "comingSoon": "Bientôt prêt"
   },
@@ -24,7 +27,8 @@
     "home": "Accueil",
     "legal": "Mentions légales",
     "privacy_policy": "Politique de confidentialité",
-    "terms_of_use": "Conditions d'utilisation"
+    "terms_of_use": "Conditions d'utilisation",
+    "linkedin": "Mon profil LinkedIn"
   },
   "button": {
     "changeLanguage": "Changer la langue en {langName}"
