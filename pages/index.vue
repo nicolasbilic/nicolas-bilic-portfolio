@@ -14,16 +14,43 @@ useSeoMeta({
   twitterDescription: t("seo.home.description"),
   twitterImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
 });
+
+onMounted(() => {
+  useGsap.from("#projectsLG", {
+    y: -100,
+    autoAlpha: 0,
+    delay: 0.5,
+    onStart: () => {
+      const el = document.getElementById("projectsLG");
+      if (el) el.style.visibility = "visible";
+    },
+  });
+  useGsap.from("#projects", {
+    y: -100,
+    autoAlpha: 0,
+    delay: 0.5,
+    onStart: () => {
+      const el = document.getElementById("projects");
+      if (el) el.style.visibility = "visible";
+    },
+  });
+});
 </script>
 
 <template>
   <div>
     <!-- desktop -->
-    <ContainerCenter class="hidden lg:flex">
+    <ContainerCenter class="invisible hidden lg:flex" id="projectsLG">
       <Projects />
     </ContainerCenter>
 
     <!-- mobile -->
-    <Projects class="flex lg:hidden" />
+    <!--  si tu fais ça dans le template parent : <Projects id="projects" />-->
+    <!-- alors l’id="projects" est appliqué directement sur le composant Vue, pas sur le DOM rendu. -->
+    <!-- et GSAP ne voit pas les composants Vue — il voit le DOM HTML réel, donc il ne trouve pas #projects. -->
+    <!-- ci-dessous, GSAP trouve immédiatement cette div avec l’ID projects dans le DOM HTML, donc il peut l’animer. -->
+    <div id="projects" class="invisible">
+      <Projects class="flex lg:hidden" />
+    </div>
   </div>
 </template>

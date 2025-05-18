@@ -15,12 +15,12 @@ onMounted(() => {
       if (el) el.style.visibility = "visible";
     },
   });
-  useGsap.from("#sidebarHomeSM", {
+  useGsap.from("#sidebarHome", {
     x: -100,
     autoAlpha: 0,
     delay: 0.5,
     onStart: () => {
-      const el = document.getElementById("sidebarHomeSM");
+      const el = document.getElementById("sidebarHome");
       if (el) el.style.visibility = "visible";
     },
   });
@@ -64,7 +64,7 @@ onMounted(() => {
 
           <!-- barre horizontale mobile/tablet -->
           <UPageAside :ui="{ root: 'block lg:hidden' }">
-            <Sidebar id="sidebarHomeSM" class="invisible" />
+            <Sidebar id="sidebarHome" class="invisible" />
           </UPageAside>
         </UPage>
       </UContainer>
