@@ -55,16 +55,6 @@ const moreProjects = [
         content: 'w-auto py-1',
       }"
     >
-      <!-- <UPageCard
-        v-for="(project, index) in projects"
-        :key="index"
-        :to="project.to"
-        target="_blank"
-        :ui="{ container: 'p-0 sm:p-0', root: 'ring-2' }"
-        class="relative w-xs md:w-sm lg:w-[500px]"
-        highlight
-        highlight-color="info"
-      > -->
       <UPageCard
         v-for="(project, index) in projects"
         :key="index"
@@ -87,7 +77,7 @@ const moreProjects = [
           :class="project.imgClass"
           class="rounded-lg md:w-[384px] lg:w-[500px]"
         />
-        <ButtonComingSoon v-if="project.comingSoon" />
+        <!-- <ButtonComingSoon v-if="project.comingSoon" /> -->
       </UPageCard>
     </UPageMarquee>
 
@@ -100,16 +90,6 @@ const moreProjects = [
         content: 'w-auto py-1',
       }"
     >
-      <!-- <UPageCard
-        v-for="(project, index) in moreProjects"
-        :key="index"
-        :to="project.to"
-        target="_blank"
-        :ui="{ container: 'p-0 sm:p-0', root: 'ring-2' }"
-        class="relative w-xs md:w-sm lg:w-[500px]"
-        highlight
-        highlight-color="info"
-      > -->
       <UPageCard
         v-for="(project, index) in moreProjects"
         :key="index"
@@ -129,7 +109,7 @@ const moreProjects = [
           :class="project.imgClass"
           class="rounded-lg md:w-[384px] lg:w-[500px]"
         />
-        <ButtonComingSoon v-if="project.comingSoon" />
+        <!-- <ButtonComingSoon v-if="project.comingSoon" /> -->
       </UPageCard>
     </UPageMarquee>
   </UPageCard>
