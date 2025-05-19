@@ -16,11 +16,13 @@ const projects = [
     img: "/images/app-alpes.webp",
     to: "https://alpes-eta.vercel.app/",
     name: "Alpes",
+    lazyImg: "lazy",
   },
   {
     img: "/images/app-gaia.webp",
     to: "https://gaia-graphic-designer.vercel.app/",
     name: "Gaia",
+    lazyImg: "lazy",
   },
 ];
 
@@ -40,6 +42,7 @@ const moreProjects: Project[] = [
     img: "/images/app-escale-flayoscaise.webp",
     to: "https://www.escaleflayoscaise.com/",
     name: "L\'escale Flayoscaise",
+    lazyImg: "lazy",
   },
 ];
 </script>
