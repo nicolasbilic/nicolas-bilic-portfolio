@@ -1,4 +1,11 @@
 <script setup lang="ts">
+type Project = {
+  img: string;
+  to: string;
+  name: string;
+  lazyImg?: "lazy" | "eager";
+};
+
 const projects = [
   {
     img: "/images/app-escale-provencale.webp",
@@ -17,16 +24,17 @@ const projects = [
   },
 ];
 
-const moreProjects = [
-  {
-    img: "/images/app-chez-agnes.webp",
-    to: "",
-    name: "Chez Agnès",
-  },
+const moreProjects: Project[] = [
   {
     img: "/images/app-ludus-studios.webp",
     to: "https://front-gaming-app.vercel.app/",
     name: "Alpes",
+  },
+  {
+    img: "/images/app-chez-agnes.webp",
+    to: "",
+    name: "Chez Agnès",
+    lazyImg: "lazy",
   },
   {
     img: "/images/app-escale-flayoscaise.webp",
@@ -100,6 +108,7 @@ const moreProjects = [
           width="320"
           height="172"
           sizes="320 md:384 lg:500"
+          :loading="project.lazyImg"
           class="rounded-lg md:w-[384px] lg:w-[500px]"
         />
       </UPageCard>
