@@ -6,7 +6,7 @@ type Project = {
   lazyImg?: "lazy" | "eager";
 };
 
-const projects = [
+const projects: Project[] = [
   {
     img: "/images/app-escale-provencale.webp",
     to: "https://www.lescaleprovencale.com/",
@@ -81,6 +81,7 @@ const moreProjects: Project[] = [
           width="320"
           height="172"
           sizes="320 md:384 lg:500"
+          :loading="project.lazyImg"
           class="rounded-lg md:w-[384px] lg:w-[500px]"
         />
       </UPageCard>
