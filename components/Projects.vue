@@ -69,9 +69,6 @@ const moreProjects: Project[] = [
         highlight
         highlight-color="info"
       >
-        <!-- height : 280 sur img lg, vraie -->
-        <!-- les attributs width et height en HTML attendent des valeurs entières en pixels, arrondir à l'entier au dessus -->
-        <!-- if you omit a screen size prefix (like sm:) then this size is the 'default' size of the image. Otherwise, Nuxt will pick the smallest size as the default size of the image. -->
         <NuxtImg
           :src="project.img"
           :alt="project.name"

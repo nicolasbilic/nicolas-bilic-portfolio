@@ -16,24 +16,8 @@ useSeoMeta({
 });
 
 onMounted(() => {
-  useGsap.from("#projectsLG", {
-    y: -100,
-    autoAlpha: 0,
-    delay: 0.5,
-    onStart: () => {
-      const el = document.getElementById("projectsLG");
-      if (el) el.style.visibility = "visible";
-    },
-  });
-  useGsap.from("#projects", {
-    y: -100,
-    autoAlpha: 0,
-    delay: 0.5,
-    onStart: () => {
-      const el = document.getElementById("projects");
-      if (el) el.style.visibility = "visible";
-    },
-  });
+  slideDown("#projectsLG");
+  slideDown("#projects");
 });
 </script>
 
@@ -45,35 +29,8 @@ onMounted(() => {
     </ContainerCenter>
 
     <!-- mobile -->
-    <!--  si tu fais ça dans le template parent : <Projects id="projects" />-->
-    <!-- alors l’id="projects" est appliqué directement sur le composant Vue, pas sur le DOM rendu. -->
-    <!-- et GSAP ne voit pas les composants Vue — il voit le DOM HTML réel, donc il ne trouve pas #projects. -->
-    <!-- ci-dessous, GSAP trouve immédiatement cette div avec l’ID projects dans le DOM HTML, donc il peut l’animer. -->
     <div id="projects" class="invisible">
       <Projects class="flex lg:hidden" />
     </div>
   </div>
 </template>
-
-<!-- <script setup lang="ts">
-import { onMounted } from "vue";
-import { animateProjectElement } from "@/utils/gsapAnimations"; // adapte le chemin si besoin
-
-onMounted(() => {
-  animateProjectElement("#projectsLG");
-  animateProjectElement("#projects");
-});
-</script> -->
-<!-- gsapAnimation.ts : import { gsap } from "gsap";
-
-export function animateProjectElement(selector: string, delay = 0.5) {
-  gsap.from(selector, {
-    y: -100,
-    autoAlpha: 0,
-    delay,
-    onStart: () => {
-      const el = document.querySelector(selector) as HTMLElement | null;
-      if (el) el.style.visibility = "visible";
-    },
-  });
-} -->
