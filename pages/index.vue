@@ -54,3 +54,26 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<!-- <script setup lang="ts">
+import { onMounted } from "vue";
+import { animateProjectElement } from "@/utils/gsapAnimations"; // adapte le chemin si besoin
+
+onMounted(() => {
+  animateProjectElement("#projectsLG");
+  animateProjectElement("#projects");
+});
+</script> -->
+<!-- gsapAnimation.ts : import { gsap } from "gsap";
+
+export function animateProjectElement(selector: string, delay = 0.5) {
+  gsap.from(selector, {
+    y: -100,
+    autoAlpha: 0,
+    delay,
+    onStart: () => {
+      const el = document.querySelector(selector) as HTMLElement | null;
+      if (el) el.style.visibility = "visible";
+    },
+  });
+} -->

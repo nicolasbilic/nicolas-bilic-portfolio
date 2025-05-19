@@ -8,7 +8,16 @@
 }
 
 @utility bg-abstract {
-  background-image: url("assets/images/bg-abstract.webp");
+  background-image: url("assets/images/bg-xs-abstract.webp");
+  @media (width >= 640px) {
+    background-image: url("assets/images/bg-sm-abstract.webp");
+  }
+  @media (width >= 768px) {
+    background-image: url("assets/images/bg-md-abstract.webp");
+  }
+  @media (width >= 1024px) {
+    background-image: url("assets/images/bg-lg-abstract.webp");
+  }
 }
 
 /* I aplpy dark mode colors to light mode */
