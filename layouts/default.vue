@@ -46,9 +46,7 @@ onMounted(() => {
         />
       </template>
     </Head>
-    <Body
-      class="bg-abstract min-h-screen bg-cover bg-center bg-no-repeat outline-1 outline-red-500"
-    >
+    <Body class="bg-abstract min-h-screen bg-cover bg-center bg-no-repeat">
       <UContainer>
         <UPage>
           <template #left>

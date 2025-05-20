@@ -24,7 +24,7 @@ onMounted(() => {
 <template>
   <div>
     <!-- desktop -->
-    <ContainerCenter class="invisible hidden lg:flex" id="projectsLG">
+    <ContainerCenter id="projectsLG" class="invisible hidden lg:flex">
       <Projects />
     </ContainerCenter>
 
