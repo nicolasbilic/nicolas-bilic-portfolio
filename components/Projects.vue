@@ -25,21 +25,21 @@ const projects: Project[] = [
 ];
 
 const moreProjects: Project[] = [
+  // {
+  //   img: "/images/app-ludus-studios.webp",
+  //   to: "https://front-gaming-app.vercel.app/",
+  //   name: "Alpes",
+  // },
   {
-    img: "/images/app-ludus-studios.webp",
-    to: "https://front-gaming-app.vercel.app/",
-    name: "Alpes",
+    img: "/images/app-escale-flayoscaise.webp",
+    to: "https://www.escaleflayoscaise.com/",
+    name: "L\'escale Flayoscaise",
   },
   {
     img: "/images/app-chez-agnes.webp",
     to: "",
     name: "Chez Agnès",
     lazyImg: "lazy",
-  },
-  {
-    img: "/images/app-escale-flayoscaise.webp",
-    to: "https://www.escaleflayoscaise.com/",
-    name: "L\'escale Flayoscaise",
   },
 ];
 </script>
