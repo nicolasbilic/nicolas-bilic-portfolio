@@ -5,6 +5,8 @@ export default defineNuxtConfig({
   modules: ['@nuxt/image', '@nuxt/ui-pro', '@nuxtjs/i18n', '@hypernym/nuxt-gsap'],
   css: ['~/assets/css/main.css'],
 
+  ssr: false,
+
   icon: {
     clientBundle: {
       scan: true,
