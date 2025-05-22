@@ -5,7 +5,12 @@ export default defineNuxtConfig({
   modules: ['@nuxt/image', '@nuxt/ui-pro', '@nuxtjs/i18n', '@hypernym/nuxt-gsap'],
   css: ['~/assets/css/main.css'],
 
-  ssr: false,
+  ssr: true,
+  nitro: {
+    prerender: {
+      routes: ['/', '/legal', '/privacy-policy', '/terms-of-use'],
+    }
+  },
 
   icon: {
     clientBundle: {
