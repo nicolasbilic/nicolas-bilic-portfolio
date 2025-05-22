@@ -8,7 +8,10 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     prerender: {
-      routes: ['/', '/legal', '/privacy-policy', '/terms-of-use'],
+      routes: [
+        '/', '/legal', '/privacy-policy', '/terms-of-use',
+        '/en', '/en/legal', '/en/privacy-policy', '/en/terms-of-use'
+      ]
     }
   },
 
