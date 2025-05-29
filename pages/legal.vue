@@ -1,16 +1,30 @@
 <!-- Legal notice page, containing the site's legal information. -->
+
 <script setup lang="ts">
-const { t } = useI18n();
+const seoByLocale = {
+  fr: {
+    title: "Mentions légales - Nicolas Bilic",
+    description: "Découvrez les mentions légales.",
+  },
+  en: {
+    title: "Legal notice • Nicolas Bilic",
+    description: "Learn more about our legal notice",
+  },
+};
+
+const route = useRoute();
+const localeCode = route.path.startsWith("/en") ? "en" : "fr";
+const seo = seoByLocale[localeCode];
 
 useSeoMeta({
-  title: t("seo.legal.title"),
-  description: t("seo.legal.description"),
-  ogTitle: t("seo.legal.title"),
-  ogDescription: t("seo.legal.description"),
+  title: seo.title,
+  description: seo.description,
+  ogTitle: seo.title,
+  ogDescription: seo.description,
   ogImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
   twitterCard: "summary_large_image",
-  twitterTitle: t("seo.legal.title"),
-  twitterDescription: t("seo.legal.description"),
+  twitterTitle: seo.title,
+  twitterDescription: seo.description,
   twitterImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
 });
 

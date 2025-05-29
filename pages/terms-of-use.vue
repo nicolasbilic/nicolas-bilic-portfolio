@@ -1,17 +1,30 @@
 <!-- Terms of use page, detailing the site's usage rules for users. -->
 
 <script setup lang="ts">
-const { t } = useI18n();
+const seoByLocale = {
+  fr: {
+    title: "Conditions d'utilisation - Nicolas Bilic",
+    description: "Découvrez les conditions d'utilisation.",
+  },
+  en: {
+    title: "Terms of use - Nicolas Bilic",
+    description: "Learn more about our terms of use",
+  },
+};
+
+const route = useRoute();
+const localeCode = route.path.startsWith("/en") ? "en" : "fr";
+const seo = seoByLocale[localeCode];
 
 useSeoMeta({
-  title: t("seo.terms_of_use.title"),
-  description: t("seo.terms_of_use.description"),
-  ogTitle: t("seo.terms_of_use.title"),
-  ogDescription: t("seo.terms_of_use.description"),
+  title: seo.title,
+  description: seo.description,
+  ogTitle: seo.title,
+  ogDescription: seo.description,
   ogImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
   twitterCard: "summary_large_image",
-  twitterTitle: t("seo.terms_of_use.title"),
-  twitterDescription: t("seo.terms_of_use.description"),
+  twitterTitle: seo.title,
+  twitterDescription: seo.description,
   twitterImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
 });
 

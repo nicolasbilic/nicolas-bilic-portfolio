@@ -1,17 +1,30 @@
 <!-- Privacy policy page, explaining how users' personal data is managed. -->
 
 <script setup lang="ts">
-const { t } = useI18n();
+const seoByLocale = {
+  fr: {
+    title: "Politique de confidentialité - Nicolas Bilic",
+    description: "Découvrez la politique de confidentialité.",
+  },
+  en: {
+    title: "Privacy policy - Nicolas Bilic",
+    description: "Learn more about our privacy policy",
+  },
+};
+
+const route = useRoute();
+const localeCode = route.path.startsWith("/en") ? "en" : "fr";
+const seo = seoByLocale[localeCode];
 
 useSeoMeta({
-  title: t("seo.privacy_policy.title"),
-  description: t("seo.privacy_policy.description"),
-  ogTitle: t("seo.privacy_policy.title"),
-  ogDescription: t("seo.privacy_policy.description"),
+  title: seo.title,
+  description: seo.description,
+  ogTitle: seo.title,
+  ogDescription: seo.description,
   ogImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
   twitterCard: "summary_large_image",
-  twitterTitle: t("seo.privacy_policy.title"),
-  twitterDescription: t("seo.privacy_policy.description"),
+  twitterTitle: seo.title,
+  twitterDescription: seo.description,
   twitterImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
 });
 

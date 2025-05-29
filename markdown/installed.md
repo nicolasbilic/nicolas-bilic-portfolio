@@ -73,6 +73,18 @@ Then add the plugin to your Prettier configuration file **.prettierrc** at the r
 
 #
 
+## Nuxt Security module
+
+[Script](https://nuxt-security.vercel.app/getting-started/installation)
+
+Install Nuxt security module in your project to take care of http headers
+
+    ```bash
+    npx nuxi@latest module add security
+    ```
+
+#
+
 ## Nuxt I18n :
 
 [Script](https://i18n.nuxtjs.org/docs/getting-started)

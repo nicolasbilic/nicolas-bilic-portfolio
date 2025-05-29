@@ -1,17 +1,33 @@
 <!-- Homepage, presenting key information and an introduction to the podcast. -->
 
 <script setup lang="ts">
-const { t } = useI18n();
+const seoByLocale = {
+  fr: {
+    title:
+      "Nicolas Bilic Site Officiel - Sites internet, Professionnel, Design",
+    description:
+      "Développeur web freelance, création de sites modernes et performants.",
+  },
+  en: {
+    title: "Nicolas Bilic Official Website - Professional Websites, Design",
+    description:
+      "Freelance web developer, building professional and fast websites.",
+  },
+};
+
+const route = useRoute();
+const localeCode = route.path.startsWith("/en") ? "en" : "fr";
+const seo = seoByLocale[localeCode];
 
 useSeoMeta({
-  title: t("seo.home.title"),
-  description: t("seo.home.description"),
-  ogTitle: t("seo.home.title"),
-  ogDescription: t("seo.home.description"),
+  title: seo.title,
+  description: seo.description,
+  ogTitle: seo.title,
+  ogDescription: seo.description,
   ogImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
   twitterCard: "summary_large_image",
-  twitterTitle: t("seo.home.title"),
-  twitterDescription: t("seo.home.description"),
+  twitterTitle: seo.title,
+  twitterDescription: seo.description,
   twitterImage: "https://www.nicolasbilic.com/images/app-alpes.jpg",
 });
 
