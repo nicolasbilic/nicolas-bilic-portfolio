@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/image', '@nuxt/ui-pro', '@nuxtjs/i18n', '@hypernym/nuxt-gsap'],
+  modules: ['@nuxt/image', '@nuxt/ui-pro', '@nuxtjs/i18n', '@hypernym/nuxt-gsap', '@nuxtjs/sitemap'],
+  site: {
+    url: 'https://www.nicolasbilic.com/',
+  },
   css: ['~/assets/css/main.css'],
 
   // Quand tu utilises ssr: true, Nuxt fait un rendu côté serveur, ce qui veut dire :
