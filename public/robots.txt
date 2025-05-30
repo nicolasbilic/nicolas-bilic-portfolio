@@ -1,4 +1,3 @@
 User-Agent: *
-Disallow:
 
 Sitemap: https://www.nicolasbilic.com/sitemap_index.xml

@@ -105,6 +105,16 @@ Install Gsap, animation library
     npm install gsap
     ```
 
+## Sitemap :
+
+[Script](https://nuxt.com/modules/sitemap)
+
+Install Gsap, animation library
+
+    ```bash
+    npx nuxi@latest module add sitemap
+    ```
+
 ### Icons
 
 ## material-symbols library
