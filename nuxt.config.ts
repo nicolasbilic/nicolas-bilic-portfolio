@@ -14,17 +14,17 @@ export default defineNuxtConfig({
   // C’est parfait pour être bien indexé dans Google, et aussi pour l’aperçu sur les réseaux sociaux (OpenGraph, Twitter cards, etc.)
   // Sans SSR, c’est du pur JavaScript (comme dans une SPA), et certains moteurs de recherche doivent attendre que le JS s’exécute → parfois ils n’indexent pas bien, ou pas du tout (surtout pour des pages fraîches ou peu populaires).
   ssr: true,
-  nitro: {
-    // À chaque vercel build (push git), Nuxt génère les pages HTML des routes spécifiées (/, /en, etc.)
-    // Ces pages sont ensuite servies comme des fichiers statiques, hyper rapides
-    // Et tu n’as plus besoin d’un serveur qui les rend à chaque fois
-    prerender: {
-      routes: [
-        '/', '/legal', '/privacy-policy', '/terms-of-use',
-        '/en', '/en/legal', '/en/privacy-policy', '/en/terms-of-use'
-      ]
-    }
-  },
+  // nitro: {
+  //   // À chaque vercel build (push git), Nuxt génère les pages HTML des routes spécifiées (/, /en, etc.)
+  //   // Ces pages sont ensuite servies comme des fichiers statiques, hyper rapides
+  //   // Et tu n’as plus besoin d’un serveur qui les rend à chaque fois
+  //   prerender: {
+  //     routes: [
+  //       '/', '/legal', '/privacy-policy', '/terms-of-use',
+  //       '/en', '/en/legal', '/en/privacy-policy', '/en/terms-of-use'
+  //     ]
+  //   }
+  // },
 
   icon: {
     clientBundle: {
