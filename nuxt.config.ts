@@ -2,7 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/image', '@nuxt/ui-pro', '@nuxtjs/i18n', '@hypernym/nuxt-gsap', '@nuxtjs/sitemap'],
+  modules: [
+    '@nuxt/image',
+    '@nuxt/ui-pro',
+    '@nuxtjs/i18n',
+    '@hypernym/nuxt-gsap',
+    '@nuxtjs/sitemap',
+    '@nuxthub/core',
+  ],
   site: {
     url: 'https://www.nicolasbilic.com/',
   },

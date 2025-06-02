@@ -2,6 +2,10 @@
 
 > all dependencies that I installed in this project
 
+npx nuxi module add hub
+
+npm install --save-dev wrangler
+
 ## Nuxt UI Pro :
 
 [Components] Install Nuxt UI Pro. **Do not Install** Nuxt UI, Nuxt Fonts, or Nuxt Icons as they are already included in Nuxt UI Pro. _Tailwind Css_ is also included with Nuxt UI.
